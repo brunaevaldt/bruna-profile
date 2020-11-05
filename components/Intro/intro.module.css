@@ -1,0 +1,54 @@
+.introContainer {
+    background-color: var(--color-background);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: calc(var(--unit) * 4);
+}
+
+.photoContainer {
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+}
+
+.name {
+    font-size: 48px;
+    margin: var(--unit) 0;
+    font-weight: 400;
+}
+
+.jobTitle {
+    font-size: 72px;
+    margin: var(--unit) 0;
+    font-weight: 900;
+}
+
+.actionRow {
+    margin-bottom: calc(var(--unit) * 2);
+    display: flex;
+    align-items: center;
+}
+
+.actionRow a {
+    padding: var(--unit);
+    height: calc(var(--unit) * 4);
+    min-width: calc(var(--unit) * 4);
+    color: var(--color-background);
+    background-color: var(--color-primary-dark);
+    display: inline-block;
+    text-decoration: none;
+    margin-right: var(--unit);
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.15s ease-out, background-color 0.2s, color 0.2s;
+}
+
+.actionRow a:hover {
+    transform: scale(1.05);
+}
+
+.actionRow a:active {
+    transform: scale(0.99);
+}
