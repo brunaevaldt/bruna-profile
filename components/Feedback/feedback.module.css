@@ -1,0 +1,25 @@
+.feedbackContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 18px;
+    background-color: var(--color-background-clear);
+    padding: var(--unit);
+    line-height: 1.5em;
+}
+
+.feedbackItem {
+    padding-right: var(--unit);
+}
+
+.feedbackDescription {
+    min-height: 100px;
+}
+
+.feedbackContainer label {
+    text-align: right;
+    width: 100%;
+    display: inline-block;
+    color: var(--color-text-light);
+    font-size: 0.8em;
+    line-height: 0.8em;
+}

@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Intro from "../components/Intro/Intro";
+import Feedback from "../components/Feedback/Feedback";
 import styles from "./index.module.css";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <Intro />
+            <Feedback />
         </main>
     );
 }
