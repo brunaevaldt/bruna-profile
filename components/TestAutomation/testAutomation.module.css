@@ -4,16 +4,16 @@
     grid-template-rows: calc(var(--unit) * 2) 1fr;
     font-size: var(--font-size-default);
     font-family: "Georgia", "serif";
-    margin-top: calc(var(--unit) * 2);
+    margin: calc(var(--unit) * 4) 0;
 }
 
-.testAutomationContainer h1 {
+.testAutomationContainer h2 {
     grid-column: 1 / -1;
-    text-align: right;
+    /* text-align: right; */
     margin: 0;
-    font-size: calc(var(--font-size-default) * 1.5);
-    font-family: "Roboto", "sans-serif";
-    font-weight: 400;
+    /* font-size: calc(var(--font-size-default) * 1.5); */
+    font-family: "Roboto", "Helvetica", "sans-serif";
+    /* font-weight: 400; */
     color: var(--color-text-light);
 }
 

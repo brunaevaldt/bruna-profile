@@ -4,7 +4,7 @@ import styles from "./testAutomation.module.css";
 const TestAutomation = () => {
     return (
         <div className={styles.testAutomationContainer}>
-            <h1>Test automation</h1>
+            <h2>Test Automation</h2>
             <section>
                 <p>
                     Starting out as a developer I gravitated towards testing.

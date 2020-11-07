@@ -6,11 +6,11 @@
     padding: calc(var(--unit) * 1);
     background-color: yellow;
     margin-top: var(--unit);
-    transform: rotate(5deg) translate(50px, 25px);
+    transform: rotate(5deg) translate(50px, 10px);
     position: absolute;
     height: 250px;
-    width: 375px;
-    box-shadow: 1px 1px 3px silver;
+    width: 400px;
+    box-shadow: 0px 0px 3px silver;
     border-radius: 1px;
     font-family: "Alex Brush", "Georgia", "serif";
     font-size: calc(var(--font-size-default) * 0.75em);
