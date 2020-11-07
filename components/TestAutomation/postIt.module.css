@@ -12,9 +12,9 @@
     width: 400px;
     box-shadow: 0px 0px 3px silver;
     border-radius: 1px;
-    font-family: "Alex Brush", "Georgia", "serif";
-    font-size: calc(var(--font-size-default) * 0.75em);
-    line-height: 1em;
+    font-family: "Georgia", "serif";
+    font-size: calc(var(--font-size-default) * 0.75);
+    line-height: 1.25em;
 }
 
 .card1Item {

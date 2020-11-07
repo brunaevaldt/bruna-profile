@@ -33,41 +33,34 @@ const Card1 = () => (
 
 const Card2 = () => (
     <div className={styles.postIt}>
-        She wanted post-its. I said:,
+        She likes post-its.
         <br />
         <br />
-        I'm the designer.
-        <br />
-        No Post-It.
+        "I'm the designer. No Post-It": I said.
     </div>
 );
 
 const Card3 = () => (
     <div className={styles.postIt}>
         The couch is fine!
-        <br />I actually like the couch. :|
+        <br />I actually like the couch.
+        <br />
+        You have to be willing to make sacrifices for your design.
+        <br />
+        :|
     </div>
 );
 
-// TODO: not sure why the order of the list is so weird.
-// It works though.
+const postItStackList = [<Card1 />, <Card2 />, <Card3 />];
+
 const PostItStack = () => {
-    const [postItStackList, updateList] = useState([
-        <Card2 />,
-        <Card3 />,
-        <Card1 />,
-    ]);
+    const [index, updateIndex] = useState(0);
     const handleClick = () => {
-        const listCopy = [...postItStackList];
-        const sheet = listCopy.shift();
-        listCopy.push(sheet);
-        updateList([...listCopy]);
+        updateIndex(index >= postItStackList.length - 1 ? 0 : index + 1);
     };
     return (
         <div className={styles.postItStack} onClick={handleClick}>
-            {postItStackList.map((item, i) => (
-                <div key={`card${i}`}>{item}</div>
-            ))}
+            <div className={styles.postItSheet}>{postItStackList[index]}</div>
         </div>
     );
 };
