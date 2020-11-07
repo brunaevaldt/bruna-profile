@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Intro from "../components/Intro/Intro";
 import Feedback from "../components/Feedback/Feedback";
+import TestAutomation from "../components/TestAutomation/TestAutomation";
 import styles from "./index.module.css";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
             </Head>
             <Intro />
             <Feedback />
+            <TestAutomation />
         </main>
     );
 }

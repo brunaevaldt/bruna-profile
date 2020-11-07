@@ -1,0 +1,24 @@
+.postItStack {
+    position: relative;
+}
+
+.postIt {
+    padding: calc(var(--unit) * 1);
+    background-color: yellow;
+    margin-top: var(--unit);
+    transform: rotate(5deg) translate(50px, 25px);
+    position: absolute;
+    height: 250px;
+    width: 375px;
+    box-shadow: 1px 1px 3px silver;
+    border-radius: 1px;
+    font-family: "Alex Brush", "Georgia", "serif";
+    font-size: calc(var(--font-size-default) * 0.75em);
+    line-height: 1em;
+}
+
+.card1Item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: var(--unit);
+}
