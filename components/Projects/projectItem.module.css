@@ -1,0 +1,38 @@
+.projectItem {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    color: var(--color-text-light);
+    margin-bottom: calc(var(--unit) * 4);
+}
+
+.projectItem h2 {
+    margin: 0;
+}
+
+.projectItem h3 {
+    margin: 0;
+    color: var(--color-primary-dark);
+    line-height: 1em;
+    font-weight: normal;
+}
+
+.projectItem p {
+    font-size: var(--font-size-default);
+    grid-row-start: 2;
+    margin: var(--unit) 0;
+    font-family: "Georgia", "serif";
+}
+
+.projectItemCompany {
+    grid-row: 1 / -1;
+    margin-left: calc(var(--unit) * 2);
+    background-color: var(--color-background-clear);
+    padding: calc(var(--unit) * 2) var(--unit);
+    border-radius: var(--unit);
+    text-align: center;
+}
+
+.projectItemCompany p {
+    font-size: 0.5em;
+}
