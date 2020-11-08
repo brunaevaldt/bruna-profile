@@ -23,6 +23,16 @@ const projects = [
             description: "Online learning app before it was cool. ",
         },
     },
+    {
+        role: "Test Analyst and ScrumMaster",
+        description:
+            "As a tester of one of the Scrum teams in Edia, I wrote tests steps for the stories and automated scenarios using Selenium. As we felt the need to move towards a new testing framework, I learned how to use Cypress and experimented with Puppeteer. I also collaborate with the Product Owners to understand the client's needs and identify the acceptance criteria.",
+        company: {
+            logo: "/images/edia-logo.jpg",
+            name: "Edia",
+            description: "Intelligent Education Technology",
+        },
+    },
 ];
 
 const Projects = () => (
