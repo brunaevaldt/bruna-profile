@@ -10,12 +10,20 @@
     position: absolute;
     height: 300px;
     width: 600px;
-    box-shadow: 0px 0px 3px silver;
     border-radius: 1px;
     font-family: "Georgia", "serif";
     /* font-size: calc(var(--font-size-default) * 0.75); */
     font-size: var(--font-size-default);
     line-height: 1.25em;
+
+    box-shadow:
+    /* The top layer shadow */ 0 1px 1px rgba(0, 0, 0, 0.15),
+        /* The second layer */ 0 10px 0 -5px yellow,
+        /* The second layer shadow */ 0 10px 1px -4px rgba(0, 0, 0, 0.15),
+        /* The third layer */ 0 20px 0 -10px yellow,
+        /* The third layer shadow */ 0 20px 1px -9px rgba(0, 0, 0, 0.15);
+    /* Padding for demo purposes */
+    padding: 30px;
 }
 
 .card1Item {
