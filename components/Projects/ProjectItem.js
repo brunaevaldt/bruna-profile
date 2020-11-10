@@ -2,9 +2,13 @@ import styles from "./projectItem.module.css";
 
 const ProjectItem = ({ project }) => (
     <div className={styles.projectItem}>
-        <h3 className={styles.projectItemTitle}>{project.role}</h3>
-        <p className={styles.projectItemDescription}>{project.description}</p>
         <ProjectItemCompany company={project.company} />
+        <article>
+            <h3 className={styles.projectItemTitle}>{project.role}</h3>
+            <p className={styles.projectItemDescription}>
+                {project.description}
+            </p>
+        </article>
     </div>
 );
 

@@ -1,19 +1,13 @@
 .projectItem {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr 2fr;
+    display: flex;
     color: var(--color-text-light);
     margin-bottom: calc(var(--unit) * 4);
 }
 
-.projectItem h2 {
-    margin: 0;
-}
-
 .projectItemTitle {
-    margin: 0;
+    margin: 0 0 var(--unit) 0;
     color: var(--color-primary-dark);
-    line-height: 1em;
+    line-height: 1.25em;
     font-weight: normal;
 }
 
@@ -21,13 +15,13 @@
     font-size: var(--font-size-default);
     grid-row-start: 2;
     margin: var(--unit) 0;
+    margin: 0;
     font-family: "Georgia", "serif";
+    line-height: 1.5em;
 }
 
 .projectItemCompanyContainer {
-    grid-row: 1 / -1;
-    margin-left: calc(var(--unit) * 2);
-    place-self: end;
+    margin-right: calc(var(--unit) * 2);
 }
 
 .projectItemCompany {
@@ -35,6 +29,8 @@
     padding: calc(var(--unit) * 2) var(--unit);
     border-radius: var(--unit);
     text-align: center;
+    width: 275px;
+    height: 150px;
 }
 
 .projectItemCompanyDescription {
