@@ -6,10 +6,10 @@ const Intro = () => (
         <div className={styles.photoContainer}>
             <img
                 alt="Bruna Evaldt Carlos profile"
-                src="/images/bruna_profile.png"
+                src="/images/bruna-profile.png"
             />
         </div>
-        <div>
+        <div className={styles.introDetailsContainer}>
             <h2 className={styles.name}>Bruna Evaldt Carlos</h2>
             <h1 className={styles.jobTitle}>QA Engineer</h1>
             <div className={styles.actionRow}>

@@ -9,15 +9,15 @@ const feedbackData = [
     },
     {
         description:
-            "Bruna likes to, not only test and ensure quality, but also mediates between developers.",
-        name: "Giwan",
-        role: "Front-end Developer",
-    },
-    {
-        description:
             "A pleasure to work with in both her roles as scrum master and tester...",
         name: "Ioannis",
         role: "iOS Developer",
+    },
+    {
+        description:
+            "Bruna not only ensures quality, she also mediates for better team dynamics.",
+        name: "Giwan",
+        role: "Front-end Developer",
     },
 ];
 
@@ -29,8 +29,9 @@ const Feedback = () => {
                     <div className={styles.feedbackDescription}>
                         {feedback.description}
                     </div>
-                    <label>{feedback.name}</label>
-                    <label>{feedback.role}</label>
+                    <label>
+                        {feedback.name} - {feedback.role}
+                    </label>
                 </div>
             ))}
         </div>

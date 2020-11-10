@@ -1,17 +1,19 @@
 .postItStack {
-    position: relative;
-    font-size: 1.5em;
+    display: flex;
+    /* justify-content: ; */
+    align-items: center;
 }
 
 .postItSheet {
-    background-color: purple;
     font-family: "Alex Brush", "Georgia", "serif";
+    font-size: calc(var(--font-size-default) * 2);
+    line-height: 1.25em;
     padding: var(--unit);
     color: #2e0f87;
     background-color: #7d64ff;
     transform: translate(0, 24px) rotate(-5deg);
-    width: 300px;
-    height: 175px;
+    width: 400px;
+    height: 225px;
     box-shadow: 0px 0px 30px silver;
     display: flex;
     align-items: center;

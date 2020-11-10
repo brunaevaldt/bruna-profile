@@ -1,6 +1,6 @@
 .testAutomationContainer {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 2fr;
     grid-template-rows: calc(var(--unit) * 2) 1fr;
     font-size: var(--font-size-default);
     font-family: "Georgia", "serif";
@@ -14,10 +14,10 @@
     /* font-size: calc(var(--font-size-default) * 1.5); */
     font-family: "Roboto", "Helvetica", "sans-serif";
     /* font-weight: 400; */
-    color: var(--color-text-light);
+    /* color: var(--color-text-lig); */
 }
 
 .testAutomationContainer section p {
-    color: var(--color-text-light);
+    /* color: var(--color-text-light); */
     line-height: 1.5em;
 }

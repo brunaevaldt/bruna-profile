@@ -16,7 +16,7 @@ const card1Data = [
     {
         img: "/images/k6-logo.png",
         imgDescription: "cypress logo",
-        description: "It helped me pickup performance testing at Chama",
+        description: "K6.io helped me pickup performance testing at Chama",
     },
 ];
 

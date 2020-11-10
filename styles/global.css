@@ -3,11 +3,15 @@
 :root {
     --color-background: #f1f1f1;
     --color-background-clear: #ffffff;
-    --color-text-light: #a6a6a6;
+    --color-text-light: #838383;
     --color-primary-dark: #222222;
     --color-accent: yellow;
     --unit: 16px;
-    --font-size-default: 24px;
+    --font-size-default: 26px;
+}
+
+* {
+    color: var(--color-primary-dark);
 }
 
 body {

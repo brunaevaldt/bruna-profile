@@ -3,7 +3,7 @@ import styles from "./projects.module.css";
 
 const projects = [
     {
-        role: "Ensure stability of iOS & Android apps",
+        role: "Ensure stability iOS & Android apps",
         description:
             "Write test ideas for user stories based on acceptance criteria. Kick off API test automation with Cypress to reduce manual regression testing. Coached the team and junior team members making quality everyone’s responsibility.",
         company: {
@@ -37,7 +37,7 @@ const projects = [
 
 const Projects = () => (
     <section className={styles.projects}>
-        <h2>Projects</h2>
+        <h2>Recent roles</h2>
         {projects.map((p) => (
             <ProjectItem key={p.role} project={p} />
         ))}

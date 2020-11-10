@@ -6,9 +6,19 @@
 }
 
 .photoContainer {
+    width: 300px;
     display: flex;
-    justify-content: left;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: flex-start;
+    /* background-color: #000; */
+    overflow: hidden;
+}
+.photoContainer img {
+    width: 300px;
+}
+
+.introDetailsContainer {
+    text-align: right;
 }
 
 .name {
@@ -26,7 +36,7 @@
 .actionRow {
     margin-bottom: calc(var(--unit) * 2);
     display: flex;
-    align-items: center;
+    justify-content: flex-end;
 }
 
 .actionRow a {
@@ -37,7 +47,7 @@
     background-color: var(--color-primary-dark);
     display: inline-block;
     text-decoration: none;
-    margin-right: var(--unit);
+    margin-left: var(--unit);
     font-size: 36px;
     display: flex;
     justify-content: center;
