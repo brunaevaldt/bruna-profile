@@ -28,14 +28,28 @@
 }
 
 .projectItemCompany {
-    background-color: var(--color-background-clear);
-    padding: calc(var(--unit) * 2) var(--unit);
+    /* background-color: var(--color-background-clear); */
+    /* padding: calc(var(--unit) * 2) var(--unit); */
     border-radius: var(--unit);
-    text-align: center;
     width: 275px;
     height: 150px;
 }
+.projectItemImageContainer {
+    background-color: var(--color-background-clear);
+    height: 100px;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectItemImage {
+    padding: var(--unit);
+    border-radius: 16px;
+}
 
 .projectItemCompanyDescription {
-    font-size: 0.5em;
+    font-size: 0.75em;
+    line-height: 1.5em;
+    margin: var(--unit) 0 0 0;
 }

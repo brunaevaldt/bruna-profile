@@ -17,7 +17,13 @@ export default ProjectItem;
 const ProjectItemCompany = ({ company }) => (
     <div className={styles.projectItemCompanyContainer}>
         <div className={styles.projectItemCompany}>
-            <img src={company.logo} alt={company.name} />
+            <div className={styles.projectItemImageContainer}>
+                <img
+                    className={styles.projectItemImage}
+                    src={company.logo}
+                    alt={company.name}
+                />
+            </div>
             <p className={styles.projectItemCompanyDescription}>
                 {company.description}
             </p>
