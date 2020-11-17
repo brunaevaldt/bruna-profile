@@ -1,6 +1,5 @@
 .postItStack {
     display: flex;
-    /* justify-content: ; */
     align-items: center;
 }
 
@@ -28,4 +27,14 @@
         /* The third layer shadow */ 0 20px 1px -9px rgba(0, 0, 0, 0.15);
     /* Padding for demo purposes */
     padding: 30px;
+}
+
+@media (max-width: 1000px) {
+    .postItStack {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 375px;
+        transform: translateY(-24px) rotate(5deg);
+    }
 }
