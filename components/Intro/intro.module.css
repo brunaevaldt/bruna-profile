@@ -62,3 +62,27 @@
 .actionRow a:active {
     transform: scale(0.99);
 }
+
+@media (max-width: 900px) {
+    .introContainer {
+        grid-template-columns: 1fr;
+    }
+
+    .photoContainer {
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        /* background-color: #000; */
+        overflow: hidden;
+    }
+
+    .introDetailsContainer {
+        text-align: center;
+    }
+
+    .actionRow {
+        justify-content: center;
+    }
+}
