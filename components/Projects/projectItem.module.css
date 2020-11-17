@@ -41,6 +41,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .projectItemImage {
@@ -52,4 +53,21 @@
     font-size: 0.75em;
     line-height: 1.5em;
     margin: var(--unit) 0 0 0;
+}
+
+@media (max-width: 750px) {
+    .projectItem {
+        display: inline-block;
+        margin-bottom: calc(var(--unit) * 4);
+    }
+    .projectItemCompanyContainer {
+        display: inline-block;
+        width: 100%;
+        margin: 0;
+        margin-bottom: calc(var(--unit) * 4);
+    }
+
+    .projectItemCompany {
+        width: 100%;
+    }
 }
