@@ -5,6 +5,8 @@
 
 @media (max-width: 960px) {
     .mainContainer {
-        padding: var(--unit);
+        margin: 0 var(--unit);
+        max-width: 100%;
+        overflow: hidden;
     }
 }

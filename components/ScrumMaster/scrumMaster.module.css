@@ -22,6 +22,7 @@
 
 @media (max-width: 1000px) {
     .scrumMasterContainer {
-        grid-template-columns: 1fr;
+        display: inline-block;
+        width: 100%;
     }
 }

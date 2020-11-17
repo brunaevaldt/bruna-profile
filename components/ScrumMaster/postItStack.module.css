@@ -31,10 +31,16 @@
 
 @media (max-width: 1000px) {
     .postItStack {
-        display: flex;
-        align-items: center;
         justify-content: center;
         height: 375px;
         transform: translateY(-24px) rotate(5deg);
+    }
+}
+
+@media (max-width: 500px) {
+    .postItStack {
+        display: inline-block;
+        justify-content: center;
+        transform: scale(50%) rotate(5deg);
     }
 }
