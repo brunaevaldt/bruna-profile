@@ -34,13 +34,25 @@
 
 @media (max-width: 1140px) {
     .postItStack {
-        position: relative;
         display: flex;
         justify-content: center;
+        transform: scale(75%);
     }
 
     .postIt {
         position: relative;
         transform: translate(-10px, 10px) rotate(5deg);
+    }
+}
+
+@media (max-width: 500px) {
+    .postItStack {
+        transform: scale(50%);
+    }
+}
+
+@media (max-width: 359px) {
+    .postItStack {
+        transform: scale(30%);
     }
 }

@@ -19,7 +19,7 @@
 
 @media (max-width: 1140px) {
     .testAutomationContainer {
-        grid-template-columns: 1fr;
+        display: initial;
     }
 
     .testAutomationContainer section:last-child {
