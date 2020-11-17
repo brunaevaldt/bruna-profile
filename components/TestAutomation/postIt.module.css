@@ -31,3 +31,16 @@
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: var(--unit);
 }
+
+@media (max-width: 1140px) {
+    .postItStack {
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+
+    .postIt {
+        position: relative;
+        transform: translate(-10px, 10px) rotate(5deg);
+    }
+}
