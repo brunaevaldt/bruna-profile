@@ -6,13 +6,11 @@
     padding: calc(var(--unit) * 1);
     background-color: yellow;
     margin-top: var(--unit);
-    transform: rotate(5deg) translate(50px, 10px);
     position: absolute;
     height: 300px;
     width: 600px;
     border-radius: 1px;
     font-family: "Georgia", "serif";
-    /* font-size: calc(var(--font-size-default) * 0.75); */
     font-size: var(--font-size-default);
     line-height: 1.25em;
 
@@ -32,6 +30,12 @@
     margin-bottom: var(--unit);
 }
 
+@media (min-width: 1141px) {
+    .postIt {
+        transform: rotate(5deg) translate(50px, 10px);
+    }
+}
+
 @media (max-width: 1140px) {
     .postItStack {
         display: flex;
@@ -41,18 +45,18 @@
 
     .postIt {
         position: relative;
-        transform: translate(-10px, 10px) rotate(5deg);
     }
 }
 
 @media (max-width: 500px) {
     .postItStack {
-        transform: scale(50%);
+        transform: none;
+        transform: scale(0.5);
     }
 }
 
 @media (max-width: 359px) {
     .postItStack {
-        transform: scale(30%);
+        transform: scale(0.4);
     }
 }

@@ -10,8 +10,7 @@
     padding: var(--unit);
     color: #2e0f87;
     background-color: #7d64ff;
-    transform: translate(0, 24px) rotate(-5deg);
-    width: 400px;
+    max-width: 400px;
     height: 225px;
     box-shadow: 0px 0px 30px silver;
     display: flex;
@@ -29,11 +28,16 @@
     padding: 30px;
 }
 
+@media (min-width: 1001px) {
+    .postItSheet {
+        transform: translate(0, 24px) rotate(-5deg);
+    }
+}
+
 @media (max-width: 1000px) {
     .postItStack {
         justify-content: center;
         height: 375px;
-        transform: translateY(-24px) rotate(5deg);
     }
 }
 
@@ -41,6 +45,9 @@
     .postItStack {
         display: inline-block;
         justify-content: center;
-        transform: scale(50%) rotate(5deg);
+    }
+
+    .postItSheet {
+        font-size: 1em;
     }
 }

@@ -5,7 +5,7 @@
     font-size: var(--font-size-default);
     line-height: 1.5em;
     color: var(--color-text-light);
-    margin-bottom: calc(var(--unit) * 4);
+    margin: calc(var(--unit) * 4) 0;
 }
 
 .scrumMasterContainer h2 {
