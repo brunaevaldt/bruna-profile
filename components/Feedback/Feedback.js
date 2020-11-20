@@ -3,13 +3,13 @@ import styles from "./feedback.module.css";
 const feedbackData = [
     {
         description:
-            "Brings the team together and goes beyond her roles and responsibilities",
+            "Brings the team together and goes beyond her roles and responsibilities.",
         name: "Anna",
         role: "Product Owner",
     },
     {
         description:
-            "A pleasure to work with in both her roles as scrum master and tester...",
+            "A pleasure to work with in both her roles as scrum master and tester.",
         name: "Ioannis",
         role: "iOS Developer",
     },

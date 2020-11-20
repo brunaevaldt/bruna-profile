@@ -12,6 +12,10 @@ export default function Home() {
             <Head>
                 <title>Bruna Evaldt Carlos</title>
                 <link rel="icon" href="/favicon.ico" />
+                <meta
+                    name="description"
+                    content="Bruna Evaldt Carlos, role: Quality Assurance Engineer, city: Amsterdam, country: netherlands"
+                />
             </Head>
             <Intro />
             <Feedback />
