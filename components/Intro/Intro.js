@@ -1,13 +1,11 @@
 import Link from "next/link";
 import styles from "./intro.module.css";
+import ProfileImage from "./ProfileImage";
 
 const Intro = () => (
     <section className={styles.introContainer}>
         <div className={styles.photoContainer}>
-            <img
-                alt="Bruna Evaldt Carlos profile"
-                src="/images/bruna-profile.png"
-            />
+            <ProfileImage />
         </div>
         <div className={styles.introDetailsContainer}>
             <h2 className={styles.name}>Bruna Evaldt Carlos</h2>

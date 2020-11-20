@@ -1,0 +1,12 @@
+.profileImageText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.profileImageText sup {
+    font-size: 0.5em;
+    color: var(--color-text-light);
+}
