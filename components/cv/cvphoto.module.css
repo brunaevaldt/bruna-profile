@@ -1,0 +1,17 @@
+.cvphoto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    /* background-color: red; */
+}
+
+.cvphoto img {
+    width: 200px;
+    height: 200px;
+    /* background-color: silver; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0;
+}

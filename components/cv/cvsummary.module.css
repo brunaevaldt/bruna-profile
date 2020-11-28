@@ -1,0 +1,15 @@
+.cvsummary {
+    padding-left: 1em;
+    padding-top: 1em;
+}
+
+.cvsummary h4 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 0.75em;
+}
+
+.cvsummary p {
+    font-size: 16px;
+    line-height: 1.3em;
+}

@@ -1,0 +1,25 @@
+.cvheader {
+    padding-left: 1em;
+    padding-top: 1em;
+}
+
+.cvheader h1 {
+    color: green;
+    font-size: 2em;
+    margin: 0;
+}
+
+.cvheader h2 {
+    font-weight: normal;
+}
+
+.address {
+    font-style: normal;
+    font-size: var(--font-size-default);
+}
+
+.address span,
+.address a {
+    margin-right: calc(var(--unit) / 2);
+    font-size: var(--font-size-small);
+}

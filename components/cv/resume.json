@@ -1,0 +1,58 @@
+{
+    "basics": {
+        "name": "Bruna Evaldt Carlos",
+        "label": "QA Engineer at Chama",
+        "image": "https://avatars1.githubusercontent.com/u/14109590?s=400&u=1d4d484c6f190fdbfc2f19cf1289164fc4fc3584&v=4",
+        "summary": "Having started out as a developer, I quickly found my passion in testing. Increasingly, I have been combining quality assurance with a scrum master role. A healthy balance of engineering and QA skills allow me to easily collaborate with developers. As the team hits their stride, I like to introduce and write test automation scripts to maintain a quality level",
+        "email": "Bruna.evaldt@gmail.com",
+        "phone": "0600000000",
+        "location": {
+            "city": "Amsterdam",
+            "countryCode": "NL"
+        }
+    },
+    "education": [
+        {
+            "endDate": "2014-12-01",
+            "startDate": "2009-08-01",
+            "area": "Bachelor in law",
+            "studyType": "Bachelors",
+            "institution": "CESUSC - Florianópolis, Brazil"
+        },
+        {
+            "endDate": "2009-08-01",
+            "startDate": "2007-03-01",
+            "area": "IT Technical Course",
+            "studyType": "Bachelors",
+            "institution": "José Cesar de Mesquita - Porto Alegre, Brazil"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Test automation",
+            "keywords": ["Cypress", "Selenium", "k6", "JMeter"]
+        },
+        {
+            "name": "Agile Methodologies",
+            "keywords": ["scrum", "kanban", "scrum master"]
+        },
+        {
+            "name": "Software development",
+            "keywords": ["c#.net", "javascript"]
+        }
+    ],
+    "Languages": [
+        {
+            "name": "Portuguese",
+            "level": "native"
+        },
+        {
+            "name": "English",
+            "level": "fluent"
+        },
+        {
+            "name": "Dutch",
+            "level": "basic"
+        }
+    ]
+}
