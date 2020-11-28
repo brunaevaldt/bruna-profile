@@ -1,5 +1,4 @@
 .introContainer {
-    background-color: var(--color-background);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-top: calc(var(--unit) * 4);

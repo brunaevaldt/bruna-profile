@@ -1,0 +1,45 @@
+.cv {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    background-color: #fff;
+    height: 100%;
+}
+
+.cv header {
+    padding-left: 1em;
+    padding-top: 1em;
+}
+
+.cv h1 {
+    color: green;
+    font-size: 2em;
+    margin: 0;
+}
+
+.cv h2 {
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.cv address {
+    font-style: normal;
+    font-size: var(--font-size-default);
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    /* background-color: red; */
+}
+
+.photo img {
+    width: 200px;
+    height: 200px;
+    /* background-color: silver; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0;
+}

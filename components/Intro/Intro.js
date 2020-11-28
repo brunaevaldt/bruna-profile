@@ -34,7 +34,7 @@ const Intro = () => (
                     </svg>
                 </a>
                 <Link
-                    href="#cv"
+                    href="/cv"
                     alt="show and print my resume"
                     className={styles.actionButton}
                 >
