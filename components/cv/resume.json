@@ -41,7 +41,7 @@
             "keywords": ["c#.net", "javascript"]
         }
     ],
-    "Languages": [
+    "languages": [
         {
             "name": "Portuguese",
             "level": "native"

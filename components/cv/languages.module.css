@@ -1,0 +1,32 @@
+.languages {
+    margin-top: calc(var(--unit) * 2);
+    font-size: var(--font-size-small);
+}
+
+.languages h4 {
+    margin: 0;
+}
+
+.languages ol {
+    margin: 0;
+    padding: 0;
+}
+
+.languageItem {
+    margin-bottom: var(--unit);
+    list-style: none;
+    margin: var(--unit) 0;
+
+    padding: 0;
+}
+
+.languageItem p {
+    margin: 0;
+    padding: 0;
+    font-weight: 800;
+}
+
+.languageItem label {
+    font-size: var(--font-size-small);
+    text-transform: capitalize;
+}

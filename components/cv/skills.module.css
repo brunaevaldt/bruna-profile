@@ -1,5 +1,6 @@
 .skills {
     padding-right: 1em;
+    margin-bottom: var(--unit);
     font-size: var(--font-size-small);
 }
 

@@ -3,6 +3,7 @@ import CvHeader from "../components/cv/CvHeader";
 import CvPhoto from "../components/cv/CvPhoto";
 import CvSummary from "../components/cv/CvSummary";
 import Skills from "../components/cv/Skills";
+import Languages from "../components/cv/Languages";
 import styles from "../styles/cv.module.css";
 import cvdata from "../components/cv/resume.json";
 
@@ -17,6 +18,7 @@ const Cv = () => (
         </main>
         <aside>
             <Skills skills={cvdata.skills} />
+            <Languages languages={cvdata.languages} />
         </aside>
     </article>
 );
