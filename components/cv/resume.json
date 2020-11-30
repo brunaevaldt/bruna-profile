@@ -54,5 +54,59 @@
             "name": "Dutch",
             "level": "basic"
         }
+    ],
+    "work": [
+        {
+            "company": "Chama The App",
+            "position": "QA Engineer",
+            "website": "https://chama.com.br/",
+            "startDate": "2019-09-01",
+            "endDate": "present",
+            "summary": [
+                "Write test ideas for stories based on acceptance criteria",
+                "Kicked off API test automation with Cypress to replace our weekly manual regression testing",
+                "Using Postman and Swagger to quickly perform API tests",
+                "Manual testing Android app with Android Emulator",
+                "Using Android Studio logcat to debug Android app",
+                "Experimented with Appium for Android UI test",
+                "Code review and collaborate with developers in writing unit tests",
+                "Wrote a script in JavaScript to test a data migration",
+                "Wrote a performance test script with K6",
+                "Using SEQ for backend debugging",
+                "Using SQL Server databases, Azure Table Storage and Firebase on a daily bases Using and cofiguring Split.io for feature flagging",
+                "Creating and maintaining build and releases pipelines for automated tests in AzureDevOps",
+                "Participate in the refinements to help unfold unknown unknowns",
+                "Coach the team to make quality everyone’s responsibility",
+                "Onboard and train junior QA’s team members"
+            ]
+        },
+        {
+            "company": "Edia",
+            "position": "Tester/Analyst & ScrumMaster",
+            "website": "https://edia.nl/",
+            "startDate": "2017-05-01",
+            "endDate": "2019-03-01",
+            "summary": [
+                "Write tests steps for the stories",
+                "Automated the scenarios using Selenium",
+                "Migrated the automated tests from Selenium to Cypress and stated using it as our main test automation tool",
+                "Collaborate with the Product Owners to understand the client's needs and identify the acceptance criteria",
+                "As a ScrumMaster, I facilitate the process and coached the team to get into the performing stage by running many experiments",
+                "When we moved to Kanban, I became responsible for the process, helping the team to implement it and adapt to the new way of work"
+            ]
+        },
+        {
+            "company": "Snappet",
+            "position": "Tester Engineer",
+            "website": "https://edia.nl/",
+            "startDate": "2019-04-01",
+            "endDate": "2019-08-01",
+            "summary": [
+                "Write and maintain automated tests using Selenium Webdriver and C#, as well as Cypress in some cases (negative testing)",
+                "Perform manual tests of new functionality",
+                "Participate in refinement and three amigo's session, collaborating with PO and developers",
+                "Facilitate retrospective with team members locally and remotely"
+            ]
+        }
     ]
 }

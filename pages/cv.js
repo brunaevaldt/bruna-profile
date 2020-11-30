@@ -4,6 +4,7 @@ import CvPhoto from "../components/cv/CvPhoto";
 import CvSummary from "../components/cv/CvSummary";
 import Skills from "../components/cv/Skills";
 import Languages from "../components/cv/Languages";
+import Work from "../components/cv/Work";
 import styles from "../styles/cv.module.css";
 import cvdata from "../components/cv/resume.json";
 
@@ -15,6 +16,7 @@ const Cv = () => (
         <CvPhoto imgUrl={cvdata.basics.image} />
         <main>
             <CvSummary summary={cvdata.basics.summary} />
+            <Work work={cvdata.work} />
         </main>
         <aside>
             <Skills skills={cvdata.skills} />
