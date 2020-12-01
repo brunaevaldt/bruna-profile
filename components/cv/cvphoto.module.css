@@ -1,6 +1,6 @@
 .cvphoto {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: center;
     overflow: hidden;
     /* background-color: red; */
@@ -14,4 +14,22 @@
     justify-content: center;
     align-items: center;
     border-radius: 0;
+}
+
+/* the point where there is only one column */
+@media (max-width: 670px) {
+    .cvphoto {
+        justify-content: flex-end;
+        margin-right: 1em;
+    }
+}
+
+@media (max-width: 486px) {
+    .cvphoto {
+        margin: 1em 0;
+        justify-content: flex-end;
+        align-items: flex-start;
+        grid-column: 1 / span 2;
+        justify-content: center;
+    }
 }

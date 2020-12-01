@@ -5,9 +5,28 @@
     height: 100%;
     margin: 1em auto;
     max-width: 1000px;
+    box-sizing: border-box;
 }
 
 .cv main,
 .cv aside {
     margin-top: var(--unit);
+}
+
+@media (max-width: 670px) {
+    .cv {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .cv main,
+    .cv aside {
+        grid-column: 1 / span 2;
+    }
+
+    .cv aside {
+        margin-left: 1em;
+    }
+}
+
+@media (max-width: 590px) {
 }

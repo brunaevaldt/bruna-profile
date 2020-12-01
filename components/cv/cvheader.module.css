@@ -1,5 +1,5 @@
 .cvheader {
-    margin: 1em 1em 0 1em;
+    margin: 0 1em 0 1em;
 }
 
 .cvheader h1 {
@@ -23,4 +23,33 @@
 .address a {
     margin-right: calc(var(--unit) / 2);
     font-size: var(--font-size-small);
+}
+
+@media (max-width: 670px) {
+    .cvheader h1 {
+        font-size: 1em;
+    }
+
+    .cvheader h2 {
+        font-weight: normal;
+        font-size: 0.5em;
+        margin: 0;
+    }
+
+    .address {
+        margin-top: var(--unit);
+    }
+
+    .address > * {
+        display: block;
+    }
+}
+
+@media (max-width: 486px) {
+    .cvheader {
+        grid-column: 1 / span 2;
+    }
+    .cvheader h1 {
+        font-size: 0.75em;
+    }
 }

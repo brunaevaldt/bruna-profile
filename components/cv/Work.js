@@ -1,4 +1,14 @@
 import styles from "./work.module.css";
+
+const getDate = (date) => {
+    if (date === "present") return date;
+    const event = new Date(date);
+    return event.toLocaleDateString("en-UK", {
+        year: "numeric",
+        month: "short",
+    });
+};
+
 const Work = ({ work }) => {
     return (
         <section className={styles.work}>
@@ -8,7 +18,8 @@ const Work = ({ work }) => {
                     <div className={styles.role}>
                         <h4>{workItem.position}</h4>
                         <label>
-                            {workItem.startDate} - {workItem.endDate}
+                            {getDate(workItem.startDate)} -{" "}
+                            {getDate(workItem.endDate)}
                         </label>
                     </div>
                     <p>{workItem.company}</p>
