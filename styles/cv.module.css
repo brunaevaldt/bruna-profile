@@ -6,3 +6,8 @@
     margin: 1em auto;
     max-width: 1000px;
 }
+
+.cv main,
+.cv aside {
+    margin-top: var(--unit);
+}

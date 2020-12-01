@@ -1,11 +1,17 @@
 .skills {
     padding-right: 1em;
     margin-bottom: var(--unit);
-    font-size: var(--font-size-small);
+}
+
+.skills h4 {
+    padding: 0;
+    margin: 0;
+    font-size: 0.75em;
 }
 
 .skillItem {
-    margin-bottom: var(--unit);
+    margin: var(--unit) 0;
+    font-size: var(--font-size-small);
 }
 
 .skills p {
