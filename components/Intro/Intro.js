@@ -38,7 +38,7 @@ const Intro = () => (
                     alt="show and print my resume"
                     className={styles.actionButton}
                 >
-                    Show & Print CV
+                    Resume
                 </Link>
             </div>
             Amsterdam, The Netherlands
