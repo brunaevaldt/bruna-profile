@@ -22,6 +22,8 @@ const ProfileImage = () => {
             alt="Bruna Evaldt Carlos profile"
             src="/images/bruna-profile.png"
             onClick={handleClick}
+            width="300px"
+            height="300px"
         />
     );
 };

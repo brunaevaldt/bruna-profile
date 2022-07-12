@@ -12,9 +12,6 @@
     align-items: flex-start;
     overflow: hidden;
 }
-.photoContainer img {
-    width: 300px;
-}
 
 .introDetailsContainer {
     text-align: right;

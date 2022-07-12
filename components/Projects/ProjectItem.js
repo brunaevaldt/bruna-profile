@@ -1,5 +1,4 @@
 import styles from "./projectItem.module.css";
-import Image from "next/image";
 
 const ProjectItem = ({ project }) => (
     <div className={styles.projectItem}>
@@ -19,12 +18,12 @@ const ProjectItemCompany = ({ company }) => (
     <div className={styles.projectItemCompanyContainer}>
         <div className={styles.projectItemCompany}>
             <div className={styles.projectItemImageContainer}>
-                <Image
+                <img
                     className={styles.projectItemImage}
                     src={company.logo}
                     alt={company.name}
-                    width={company.logoSize[0]}
-                    height={company.logoSize[1]}
+                    width={company.logoSize[0]+ "px"}
+                    height={company.logoSize[1] + "px"}
 
                 />
             </div>

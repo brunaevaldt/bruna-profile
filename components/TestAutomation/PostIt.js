@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import styles from "./postIt.module.css";
-import Image from "next/image";
 
 const card1Data = [
     {
@@ -28,7 +27,7 @@ const Card1 = () => (
     <div className={styles.postIt}>
         {card1Data.map((cardItem) => (
             <div key={cardItem.description} className={styles.card1Item}>
-                <Image src={cardItem.img} alt={cardItem.imgDescription} width={cardItem.imgSize[0]} height={cardItem.imgSize[1]} />
+                <img src={cardItem.img} alt={cardItem.imgDescription} width={cardItem.imgSize[0] + "px"} height={cardItem.imgSize[1] + "px"} />
                 <div>{cardItem.description}</div>
             </div>
         ))}
