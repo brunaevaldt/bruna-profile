@@ -1,21 +1,25 @@
 import React, { useState } from "react";
 import styles from "./postIt.module.css";
+import Image from "next/image";
 
 const card1Data = [
     {
         img: "/images/cypress-logo.png",
         imgDescription: "cypress logo",
+        imgSize: [121, 41],
         description:
             "I started using cypress.io at Edia and loved it's ease of use",
     },
     {
         img: "/images/selenium-logo.png",
         imgDescription: "selenium logo",
+        imgSize: [157, 39],
         description: "while experienced with it, I would prefer Cypress",
     },
     {
         img: "/images/k6-logo.png",
         imgDescription: "cypress logo",
+        imgSize: [51, 51],
         description: "K6.io helped me pickup performance testing at Chama",
     },
 ];
@@ -24,7 +28,7 @@ const Card1 = () => (
     <div className={styles.postIt}>
         {card1Data.map((cardItem) => (
             <div key={cardItem.description} className={styles.card1Item}>
-                <img src={cardItem.img} alt={cardItem.imgDescription} />
+                <Image src={cardItem.img} alt={cardItem.imgDescription} width={cardItem.imgSize[0]} height={cardItem.imgSize[1]} />
                 <div>{cardItem.description}</div>
             </div>
         ))}

@@ -13,7 +13,7 @@ const Intro = () => (
             <div className={styles.actionRow}>
                 <a
                     href="mailto:bruna.evaldt@gmail.com?subject=Hi Bruna!&body=Hi Bruna,"
-                    alt="send me an email"
+                    title="send me an email"
                     className={styles.actionButton}
                 >
                     <svg
